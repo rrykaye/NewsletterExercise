@@ -1,29 +1,37 @@
-form {
-    max-width: 400px;
-    margin: 150px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    background-color: gray ;
-  }
-  input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-    background-color: red;
-  }
-  #newsletter-form label {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
-    margin-bottom: 8px; /* Space between label and input */
-    font-weight: bold; /* Optional: Make labels bold */
-    align-items: left;
+* {
+    box-sizing: border-box;
 }
-  
+.container {
+    display: flex;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 20px;
+    border-radius: 8px;
+   }
+body {
+    background-color: rgb(15, 0, 62);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 70px;
+   }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.left {
+    margin-right: 10px;
+    margin-left: 10px;
+}
